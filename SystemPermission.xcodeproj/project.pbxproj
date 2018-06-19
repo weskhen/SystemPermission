@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E004E8DD20D891530089D7C2 /* SystemHealthObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E004E8DC20D891530089D7C2 /* SystemHealthObject.m */; };
-		E004E8E020D8B25D0089D7C2 /* SystemNetworkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E004E8DF20D8B25D0089D7C2 /* SystemNetworkObject.m */; };
 		E0111D7420D8B697001CC290 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0111D7320D8B697001CC290 /* HomeKit.framework */; };
 		E0111D7720D8B698001CC290 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0111D7620D8B698001CC290 /* HealthKit.framework */; };
 		E07FB49020D14E3F001B517F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB48F20D14E3F001B517F /* AppDelegate.m */; };
@@ -17,28 +15,26 @@
 		E07FB49820D14E40001B517F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07FB49720D14E40001B517F /* Assets.xcassets */; };
 		E07FB49B20D14E40001B517F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07FB49920D14E40001B517F /* LaunchScreen.storyboard */; };
 		E07FB49E20D14E40001B517F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB49D20D14E40001B517F /* main.m */; };
-		E07FB4A720D14E8A001B517F /* SystemPermissionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4A620D14E8A001B517F /* SystemPermissionServer.m */; };
-		E07FB4AA20D21810001B517F /* SystemNotificationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4A920D21810001B517F /* SystemNotificationObject.m */; };
-		E07FB4AD20D21861001B517F /* SystemPermissionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4AC20D21861001B517F /* SystemPermissionObject.m */; };
-		E07FB4B020D21B4F001B517F /* SystemAlbumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4AF20D21B4F001B517F /* SystemAlbumObject.m */; };
-		E07FB4B320D21EA5001B517F /* SystemCameraObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4B220D21EA5001B517F /* SystemCameraObject.m */; };
-		E07FB4B620D21FD7001B517F /* SystemRecordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4B520D21FD7001B517F /* SystemRecordObject.m */; };
-		E07FB4B920D22ED2001B517F /* SystemLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4B820D22ED2001B517F /* SystemLocationObject.m */; };
-		E07FB4BC20D23BA3001B517F /* SystemAddressBookObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4BB20D23BA3001B517F /* SystemAddressBookObject.m */; };
-		E07FB4BF20D25A3C001B517F /* SystemBluetoothObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4BE20D25A3C001B517F /* SystemBluetoothObject.m */; };
-		E07FB4C220D38AF3001B517F /* SystemCalendarObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4C120D38AF3001B517F /* SystemCalendarObject.m */; };
-		E07FB4C520D39D70001B517F /* SystemSirObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4C420D39D70001B517F /* SystemSirObject.m */; };
-		E07FB4C820D3A111001B517F /* SystemSpeechObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4C720D3A111001B517F /* SystemSpeechObject.m */; };
-		E07FB4CB20D3A339001B517F /* SystemApplePayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4CA20D3A339001B517F /* SystemApplePayObject.m */; };
-		E07FB4CE20D3B0CF001B517F /* SystemTouchIDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4CD20D3B0CF001B517F /* SystemTouchIDObject.m */; };
-		E07FB4D120D3BC41001B517F /* SystemMediaPlayerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E07FB4D020D3BC41001B517F /* SystemMediaPlayerObject.m */; };
+		E0E017C020D8FD0000FDB287 /* SystemAlbumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E0179E20D8FCFD00FDB287 /* SystemAlbumObject.m */; };
+		E0E017C120D8FD0000FDB287 /* SystemBluetoothObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017A020D8FCFD00FDB287 /* SystemBluetoothObject.m */; };
+		E0E017C220D8FD0000FDB287 /* SystemAddressBookObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017A120D8FCFD00FDB287 /* SystemAddressBookObject.m */; };
+		E0E017C320D8FD0000FDB287 /* SystemApplePayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017A320D8FCFD00FDB287 /* SystemApplePayObject.m */; };
+		E0E017C420D8FD0000FDB287 /* SystemCameraObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017A620D8FCFE00FDB287 /* SystemCameraObject.m */; };
+		E0E017C520D8FD0000FDB287 /* SystemRecordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017AC20D8FCFE00FDB287 /* SystemRecordObject.m */; };
+		E0E017C620D8FD0000FDB287 /* SystemSirObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017AD20D8FCFE00FDB287 /* SystemSirObject.m */; };
+		E0E017C720D8FD0000FDB287 /* SystemTouchIDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017AF20D8FCFE00FDB287 /* SystemTouchIDObject.m */; };
+		E0E017C820D8FD0000FDB287 /* SystemHealthObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017B020D8FCFE00FDB287 /* SystemHealthObject.m */; };
+		E0E017C920D8FD0000FDB287 /* SystemPermissionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017B220D8FCFE00FDB287 /* SystemPermissionServer.m */; };
+		E0E017CA20D8FD0000FDB287 /* SystemPermissionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017B620D8FCFF00FDB287 /* SystemPermissionObject.m */; };
+		E0E017CB20D8FD0000FDB287 /* SystemNetworkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017B720D8FCFF00FDB287 /* SystemNetworkObject.m */; };
+		E0E017CC20D8FD0000FDB287 /* SystemCalendarObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017BA20D8FCFF00FDB287 /* SystemCalendarObject.m */; };
+		E0E017CD20D8FD0000FDB287 /* SystemLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017BB20D8FCFF00FDB287 /* SystemLocationObject.m */; };
+		E0E017CE20D8FD0000FDB287 /* SystemSpeechObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017BD20D8FCFF00FDB287 /* SystemSpeechObject.m */; };
+		E0E017CF20D8FD0000FDB287 /* SystemMediaPlayerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017BE20D8FD0000FDB287 /* SystemMediaPlayerObject.m */; };
+		E0E017D020D8FD0000FDB287 /* SystemNotificationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E017BF20D8FD0000FDB287 /* SystemNotificationObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E004E8DB20D891530089D7C2 /* SystemHealthObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemHealthObject.h; sourceTree = "<group>"; };
-		E004E8DC20D891530089D7C2 /* SystemHealthObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemHealthObject.m; sourceTree = "<group>"; };
-		E004E8DE20D8B25D0089D7C2 /* SystemNetworkObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemNetworkObject.h; sourceTree = "<group>"; };
-		E004E8DF20D8B25D0089D7C2 /* SystemNetworkObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemNetworkObject.m; sourceTree = "<group>"; };
 		E0111D7320D8B697001CC290 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		E0111D7520D8B697001CC290 /* SystemPermission.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemPermission.entitlements; sourceTree = "<group>"; };
 		E0111D7620D8B698001CC290 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -52,36 +48,40 @@
 		E07FB49A20D14E40001B517F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E07FB49C20D14E40001B517F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E07FB49D20D14E40001B517F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E07FB4A520D14E8A001B517F /* SystemPermissionServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemPermissionServer.h; sourceTree = "<group>"; };
-		E07FB4A620D14E8A001B517F /* SystemPermissionServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPermissionServer.m; sourceTree = "<group>"; };
-		E07FB4A820D21810001B517F /* SystemNotificationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemNotificationObject.h; sourceTree = "<group>"; };
-		E07FB4A920D21810001B517F /* SystemNotificationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemNotificationObject.m; sourceTree = "<group>"; };
-		E07FB4AB20D21861001B517F /* SystemPermissionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemPermissionObject.h; sourceTree = "<group>"; };
-		E07FB4AC20D21861001B517F /* SystemPermissionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPermissionObject.m; sourceTree = "<group>"; };
-		E07FB4AE20D21B4F001B517F /* SystemAlbumObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemAlbumObject.h; sourceTree = "<group>"; };
-		E07FB4AF20D21B4F001B517F /* SystemAlbumObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemAlbumObject.m; sourceTree = "<group>"; };
-		E07FB4B120D21EA5001B517F /* SystemCameraObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemCameraObject.h; sourceTree = "<group>"; };
-		E07FB4B220D21EA5001B517F /* SystemCameraObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemCameraObject.m; sourceTree = "<group>"; };
-		E07FB4B420D21FD7001B517F /* SystemRecordObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemRecordObject.h; sourceTree = "<group>"; };
-		E07FB4B520D21FD7001B517F /* SystemRecordObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemRecordObject.m; sourceTree = "<group>"; };
-		E07FB4B720D22ED2001B517F /* SystemLocationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemLocationObject.h; sourceTree = "<group>"; };
-		E07FB4B820D22ED2001B517F /* SystemLocationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemLocationObject.m; sourceTree = "<group>"; };
-		E07FB4BA20D23BA3001B517F /* SystemAddressBookObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemAddressBookObject.h; sourceTree = "<group>"; };
-		E07FB4BB20D23BA3001B517F /* SystemAddressBookObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemAddressBookObject.m; sourceTree = "<group>"; };
-		E07FB4BD20D25A3C001B517F /* SystemBluetoothObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemBluetoothObject.h; sourceTree = "<group>"; };
-		E07FB4BE20D25A3C001B517F /* SystemBluetoothObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemBluetoothObject.m; sourceTree = "<group>"; };
-		E07FB4C020D38AF3001B517F /* SystemCalendarObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemCalendarObject.h; sourceTree = "<group>"; };
-		E07FB4C120D38AF3001B517F /* SystemCalendarObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemCalendarObject.m; sourceTree = "<group>"; };
-		E07FB4C320D39D70001B517F /* SystemSirObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemSirObject.h; sourceTree = "<group>"; };
-		E07FB4C420D39D70001B517F /* SystemSirObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemSirObject.m; sourceTree = "<group>"; };
-		E07FB4C620D3A111001B517F /* SystemSpeechObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemSpeechObject.h; sourceTree = "<group>"; };
-		E07FB4C720D3A111001B517F /* SystemSpeechObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemSpeechObject.m; sourceTree = "<group>"; };
-		E07FB4C920D3A339001B517F /* SystemApplePayObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemApplePayObject.h; sourceTree = "<group>"; };
-		E07FB4CA20D3A339001B517F /* SystemApplePayObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemApplePayObject.m; sourceTree = "<group>"; };
-		E07FB4CC20D3B0CF001B517F /* SystemTouchIDObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemTouchIDObject.h; sourceTree = "<group>"; };
-		E07FB4CD20D3B0CF001B517F /* SystemTouchIDObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemTouchIDObject.m; sourceTree = "<group>"; };
-		E07FB4CF20D3BC41001B517F /* SystemMediaPlayerObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMediaPlayerObject.h; sourceTree = "<group>"; };
-		E07FB4D020D3BC41001B517F /* SystemMediaPlayerObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemMediaPlayerObject.m; sourceTree = "<group>"; };
+		E0E0179E20D8FCFD00FDB287 /* SystemAlbumObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAlbumObject.m; sourceTree = "<group>"; };
+		E0E0179F20D8FCFD00FDB287 /* SystemCalendarObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemCalendarObject.h; sourceTree = "<group>"; };
+		E0E017A020D8FCFD00FDB287 /* SystemBluetoothObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemBluetoothObject.m; sourceTree = "<group>"; };
+		E0E017A120D8FCFD00FDB287 /* SystemAddressBookObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAddressBookObject.m; sourceTree = "<group>"; };
+		E0E017A220D8FCFD00FDB287 /* SystemPermissionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemPermissionObject.h; sourceTree = "<group>"; };
+		E0E017A320D8FCFD00FDB287 /* SystemApplePayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemApplePayObject.m; sourceTree = "<group>"; };
+		E0E017A420D8FCFD00FDB287 /* SystemRecordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemRecordObject.h; sourceTree = "<group>"; };
+		E0E017A520D8FCFE00FDB287 /* SystemSpeechObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSpeechObject.h; sourceTree = "<group>"; };
+		E0E017A620D8FCFE00FDB287 /* SystemCameraObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemCameraObject.m; sourceTree = "<group>"; };
+		E0E017A720D8FCFE00FDB287 /* SystemAlbumObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAlbumObject.h; sourceTree = "<group>"; };
+		E0E017A820D8FCFE00FDB287 /* SystemCameraObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemCameraObject.h; sourceTree = "<group>"; };
+		E0E017A920D8FCFE00FDB287 /* SystemMediaPlayerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMediaPlayerObject.h; sourceTree = "<group>"; };
+		E0E017AA20D8FCFE00FDB287 /* SystemNotificationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemNotificationObject.h; sourceTree = "<group>"; };
+		E0E017AB20D8FCFE00FDB287 /* SystemNetworkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemNetworkObject.h; sourceTree = "<group>"; };
+		E0E017AC20D8FCFE00FDB287 /* SystemRecordObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemRecordObject.m; sourceTree = "<group>"; };
+		E0E017AD20D8FCFE00FDB287 /* SystemSirObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSirObject.m; sourceTree = "<group>"; };
+		E0E017AE20D8FCFE00FDB287 /* SystemTouchIDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemTouchIDObject.h; sourceTree = "<group>"; };
+		E0E017AF20D8FCFE00FDB287 /* SystemTouchIDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemTouchIDObject.m; sourceTree = "<group>"; };
+		E0E017B020D8FCFE00FDB287 /* SystemHealthObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemHealthObject.m; sourceTree = "<group>"; };
+		E0E017B120D8FCFE00FDB287 /* SystemBluetoothObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemBluetoothObject.h; sourceTree = "<group>"; };
+		E0E017B220D8FCFE00FDB287 /* SystemPermissionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemPermissionServer.m; sourceTree = "<group>"; };
+		E0E017B320D8FCFF00FDB287 /* SystemAddressBookObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemAddressBookObject.h; sourceTree = "<group>"; };
+		E0E017B420D8FCFF00FDB287 /* SystemPermissionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemPermissionServer.h; sourceTree = "<group>"; };
+		E0E017B520D8FCFF00FDB287 /* SystemHealthObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemHealthObject.h; sourceTree = "<group>"; };
+		E0E017B620D8FCFF00FDB287 /* SystemPermissionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemPermissionObject.m; sourceTree = "<group>"; };
+		E0E017B720D8FCFF00FDB287 /* SystemNetworkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemNetworkObject.m; sourceTree = "<group>"; };
+		E0E017B820D8FCFF00FDB287 /* SystemApplePayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemApplePayObject.h; sourceTree = "<group>"; };
+		E0E017B920D8FCFF00FDB287 /* SystemLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemLocationObject.h; sourceTree = "<group>"; };
+		E0E017BA20D8FCFF00FDB287 /* SystemCalendarObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemCalendarObject.m; sourceTree = "<group>"; };
+		E0E017BB20D8FCFF00FDB287 /* SystemLocationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemLocationObject.m; sourceTree = "<group>"; };
+		E0E017BC20D8FCFF00FDB287 /* SystemSirObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSirObject.h; sourceTree = "<group>"; };
+		E0E017BD20D8FCFF00FDB287 /* SystemSpeechObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSpeechObject.m; sourceTree = "<group>"; };
+		E0E017BE20D8FD0000FDB287 /* SystemMediaPlayerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMediaPlayerObject.m; sourceTree = "<group>"; };
+		E0E017BF20D8FD0000FDB287 /* SystemNotificationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemNotificationObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 				E07FB48F20D14E3F001B517F /* AppDelegate.m */,
 				E07FB49120D14E3F001B517F /* ViewController.h */,
 				E07FB49220D14E3F001B517F /* ViewController.m */,
-				E07FB4A420D14E53001B517F /* SystemPermission */,
+				E0E0176A20D8FCEB00FDB287 /* SystemPermission */,
 				E07FB49420D14E3F001B517F /* Main.storyboard */,
 				E07FB49720D14E40001B517F /* Assets.xcassets */,
 				E07FB49920D14E40001B517F /* LaunchScreen.storyboard */,
@@ -141,47 +141,47 @@
 			path = SystemPermission;
 			sourceTree = "<group>";
 		};
-		E07FB4A420D14E53001B517F /* SystemPermission */ = {
+		E0E0176A20D8FCEB00FDB287 /* SystemPermission */ = {
 			isa = PBXGroup;
 			children = (
-				E07FB4A520D14E8A001B517F /* SystemPermissionServer.h */,
-				E07FB4A620D14E8A001B517F /* SystemPermissionServer.m */,
-				E07FB4AB20D21861001B517F /* SystemPermissionObject.h */,
-				E07FB4AC20D21861001B517F /* SystemPermissionObject.m */,
-				E07FB4A820D21810001B517F /* SystemNotificationObject.h */,
-				E07FB4A920D21810001B517F /* SystemNotificationObject.m */,
-				E07FB4AE20D21B4F001B517F /* SystemAlbumObject.h */,
-				E07FB4AF20D21B4F001B517F /* SystemAlbumObject.m */,
-				E07FB4B120D21EA5001B517F /* SystemCameraObject.h */,
-				E07FB4B220D21EA5001B517F /* SystemCameraObject.m */,
-				E07FB4B420D21FD7001B517F /* SystemRecordObject.h */,
-				E07FB4B520D21FD7001B517F /* SystemRecordObject.m */,
-				E07FB4B720D22ED2001B517F /* SystemLocationObject.h */,
-				E07FB4B820D22ED2001B517F /* SystemLocationObject.m */,
-				E07FB4BA20D23BA3001B517F /* SystemAddressBookObject.h */,
-				E07FB4BB20D23BA3001B517F /* SystemAddressBookObject.m */,
-				E07FB4BD20D25A3C001B517F /* SystemBluetoothObject.h */,
-				E07FB4BE20D25A3C001B517F /* SystemBluetoothObject.m */,
-				E07FB4C020D38AF3001B517F /* SystemCalendarObject.h */,
-				E07FB4C120D38AF3001B517F /* SystemCalendarObject.m */,
-				E07FB4C320D39D70001B517F /* SystemSirObject.h */,
-				E07FB4C420D39D70001B517F /* SystemSirObject.m */,
-				E07FB4C620D3A111001B517F /* SystemSpeechObject.h */,
-				E07FB4C720D3A111001B517F /* SystemSpeechObject.m */,
-				E07FB4C920D3A339001B517F /* SystemApplePayObject.h */,
-				E07FB4CA20D3A339001B517F /* SystemApplePayObject.m */,
-				E07FB4CC20D3B0CF001B517F /* SystemTouchIDObject.h */,
-				E07FB4CD20D3B0CF001B517F /* SystemTouchIDObject.m */,
-				E07FB4CF20D3BC41001B517F /* SystemMediaPlayerObject.h */,
-				E07FB4D020D3BC41001B517F /* SystemMediaPlayerObject.m */,
-				E004E8DB20D891530089D7C2 /* SystemHealthObject.h */,
-				E004E8DC20D891530089D7C2 /* SystemHealthObject.m */,
-				E004E8DE20D8B25D0089D7C2 /* SystemNetworkObject.h */,
-				E004E8DF20D8B25D0089D7C2 /* SystemNetworkObject.m */,
+				E0E017B320D8FCFF00FDB287 /* SystemAddressBookObject.h */,
+				E0E017A120D8FCFD00FDB287 /* SystemAddressBookObject.m */,
+				E0E017A720D8FCFE00FDB287 /* SystemAlbumObject.h */,
+				E0E0179E20D8FCFD00FDB287 /* SystemAlbumObject.m */,
+				E0E017B820D8FCFF00FDB287 /* SystemApplePayObject.h */,
+				E0E017A320D8FCFD00FDB287 /* SystemApplePayObject.m */,
+				E0E017B120D8FCFE00FDB287 /* SystemBluetoothObject.h */,
+				E0E017A020D8FCFD00FDB287 /* SystemBluetoothObject.m */,
+				E0E0179F20D8FCFD00FDB287 /* SystemCalendarObject.h */,
+				E0E017BA20D8FCFF00FDB287 /* SystemCalendarObject.m */,
+				E0E017A820D8FCFE00FDB287 /* SystemCameraObject.h */,
+				E0E017A620D8FCFE00FDB287 /* SystemCameraObject.m */,
+				E0E017B520D8FCFF00FDB287 /* SystemHealthObject.h */,
+				E0E017B020D8FCFE00FDB287 /* SystemHealthObject.m */,
+				E0E017B920D8FCFF00FDB287 /* SystemLocationObject.h */,
+				E0E017BB20D8FCFF00FDB287 /* SystemLocationObject.m */,
+				E0E017A920D8FCFE00FDB287 /* SystemMediaPlayerObject.h */,
+				E0E017BE20D8FD0000FDB287 /* SystemMediaPlayerObject.m */,
+				E0E017AB20D8FCFE00FDB287 /* SystemNetworkObject.h */,
+				E0E017B720D8FCFF00FDB287 /* SystemNetworkObject.m */,
+				E0E017AA20D8FCFE00FDB287 /* SystemNotificationObject.h */,
+				E0E017BF20D8FD0000FDB287 /* SystemNotificationObject.m */,
+				E0E017A220D8FCFD00FDB287 /* SystemPermissionObject.h */,
+				E0E017B620D8FCFF00FDB287 /* SystemPermissionObject.m */,
+				E0E017B420D8FCFF00FDB287 /* SystemPermissionServer.h */,
+				E0E017B220D8FCFE00FDB287 /* SystemPermissionServer.m */,
+				E0E017A420D8FCFD00FDB287 /* SystemRecordObject.h */,
+				E0E017AC20D8FCFE00FDB287 /* SystemRecordObject.m */,
+				E0E017BC20D8FCFF00FDB287 /* SystemSirObject.h */,
+				E0E017AD20D8FCFE00FDB287 /* SystemSirObject.m */,
+				E0E017A520D8FCFE00FDB287 /* SystemSpeechObject.h */,
+				E0E017BD20D8FCFF00FDB287 /* SystemSpeechObject.m */,
+				E0E017AE20D8FCFE00FDB287 /* SystemTouchIDObject.h */,
+				E0E017AF20D8FCFE00FDB287 /* SystemTouchIDObject.m */,
 			);
 			name = SystemPermission;
-			path = ../Class/SystemPermission;
-			sourceTree = "<group>";
+			path = Public/SystemPermission;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -264,26 +264,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07FB4AD20D21861001B517F /* SystemPermissionObject.m in Sources */,
-				E07FB4D120D3BC41001B517F /* SystemMediaPlayerObject.m in Sources */,
-				E004E8E020D8B25D0089D7C2 /* SystemNetworkObject.m in Sources */,
-				E07FB4BC20D23BA3001B517F /* SystemAddressBookObject.m in Sources */,
-				E07FB4A720D14E8A001B517F /* SystemPermissionServer.m in Sources */,
-				E07FB4AA20D21810001B517F /* SystemNotificationObject.m in Sources */,
-				E07FB4C520D39D70001B517F /* SystemSirObject.m in Sources */,
 				E07FB49320D14E3F001B517F /* ViewController.m in Sources */,
-				E07FB4B320D21EA5001B517F /* SystemCameraObject.m in Sources */,
-				E07FB4CE20D3B0CF001B517F /* SystemTouchIDObject.m in Sources */,
+				E0E017C220D8FD0000FDB287 /* SystemAddressBookObject.m in Sources */,
+				E0E017CA20D8FD0000FDB287 /* SystemPermissionObject.m in Sources */,
+				E0E017C620D8FD0000FDB287 /* SystemSirObject.m in Sources */,
+				E0E017C320D8FD0000FDB287 /* SystemApplePayObject.m in Sources */,
+				E0E017C120D8FD0000FDB287 /* SystemBluetoothObject.m in Sources */,
+				E0E017C820D8FD0000FDB287 /* SystemHealthObject.m in Sources */,
+				E0E017CC20D8FD0000FDB287 /* SystemCalendarObject.m in Sources */,
+				E0E017CB20D8FD0000FDB287 /* SystemNetworkObject.m in Sources */,
+				E0E017C420D8FD0000FDB287 /* SystemCameraObject.m in Sources */,
 				E07FB49E20D14E40001B517F /* main.m in Sources */,
-				E004E8DD20D891530089D7C2 /* SystemHealthObject.m in Sources */,
-				E07FB4C220D38AF3001B517F /* SystemCalendarObject.m in Sources */,
-				E07FB4CB20D3A339001B517F /* SystemApplePayObject.m in Sources */,
+				E0E017CE20D8FD0000FDB287 /* SystemSpeechObject.m in Sources */,
+				E0E017C720D8FD0000FDB287 /* SystemTouchIDObject.m in Sources */,
+				E0E017C920D8FD0000FDB287 /* SystemPermissionServer.m in Sources */,
+				E0E017CF20D8FD0000FDB287 /* SystemMediaPlayerObject.m in Sources */,
 				E07FB49020D14E3F001B517F /* AppDelegate.m in Sources */,
-				E07FB4BF20D25A3C001B517F /* SystemBluetoothObject.m in Sources */,
-				E07FB4C820D3A111001B517F /* SystemSpeechObject.m in Sources */,
-				E07FB4B620D21FD7001B517F /* SystemRecordObject.m in Sources */,
-				E07FB4B920D22ED2001B517F /* SystemLocationObject.m in Sources */,
-				E07FB4B020D21B4F001B517F /* SystemAlbumObject.m in Sources */,
+				E0E017D020D8FD0000FDB287 /* SystemNotificationObject.m in Sources */,
+				E0E017C520D8FD0000FDB287 /* SystemRecordObject.m in Sources */,
+				E0E017C020D8FD0000FDB287 /* SystemAlbumObject.m in Sources */,
+				E0E017CD20D8FD0000FDB287 /* SystemLocationObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
